@@ -1,0 +1,140 @@
+{
+    "name": "misfist/pai-packages",
+    "description": "WordPress packages for public-accountability.org",
+    "type": "project",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Pea",
+            "email": "pea@misfist.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "misfist/littlesis",
+                "version": "v0.1.11",
+                "type": "wordpress-theme",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/misfist/littlesis/archive/master.zip"
+                },
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:misfist/littlesis.git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "misfist/littlesis-core-functionality",
+                "version": "0.1.4",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/misfist/littlesis-core-functionality/archive/master.zip"
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/misfist/littlesis-core-functionality.git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "misfist/pai",
+                "version": "0.0.1",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/misfist/pai/archive/master.zip"
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/misfist/pai.git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "misfist/pai-core-functionality",
+                "version": "0.0.1",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/misfist/pai-core-functionality/archive/master.zip"
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/misfist/pai-core-functionality.git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "misfist/advanced-custom-fields-pro",
+                "version": "5.6.1",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/misfist/advanced-custom-fields/archive/master.zip"
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/misfist/advanced-custom-fields.git",
+                    "reference": "master"
+                }
+            }
+        }
+
+
+    ],
+    "require": {
+      "misfist/advanced-custom-fields-pro": "^5.6.1",
+      "wpackagist-plugin/caldera-forms": "^1.5.0",
+      "wpackagist-plugin/co-authors-plus": "^3.2.1",
+      "wpackagist-plugin/codepress-admin-columns": "^3.0.3",
+      "wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.1.1.1",
+      "wpackagist-plugin/jetpack": "^5.3",
+      "wpackagist-plugin/mailchimp-for-wp": "^4.1.8",
+      "wpackagist-plugin/table-of-contents-plus": "^1601",
+      "wpackagist-plugin/series": "^1.0.0",
+      "wpackagist-plugin/shortcode-ui": "^0.7.0",
+      "wpackagist-plugin/widget-css-classes": "^1.4.0",
+      "wpackagist-plugin/wp-user-avatars": "^1.0.2",
+      "misfist/pai-core-functionality": "^0.0.1",
+      "wpackagist-theme/understrap": "^0.5.6",
+      "misfist/pai": "^0.0.1",
+      "misfist/littlesis-core-functionality": "^0.1.4",
+      "misfist/littlesis": "^0.1.12"
+    },
+    "require-dev": {
+      "wpackagist-plugin/developer": "^1.2.5",
+      "wpackagist-plugin/term-management-tools": "^1.1.4",
+      "wpackagist-plugin/transients-manager": "^1.7.3",
+      "wpackagist-plugin/user-switching": "^1.1.0",
+      "wpackagist-plugin/which-template": "^4.0",
+      "wpackagist-plugin/wordpress-importer": "^0.6.3",
+      "wpackagist-plugin/wp-log-viewer": "^1.0.7"
+    },
+    "extra": {
+      "installer-paths": {
+        "../wordpress/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+        "../wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+        "../wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+      }
+    }
+}
