@@ -4,7 +4,7 @@ Requires at least: 4.7
 Tested up to: 4.8.1
 License: GPLv3
 
-WordPress packages for public-accountability.org
+WordPress packages for public-accountability network of sites
 
 == Description ==
 Package configuration for WordPress plugins and themes used on public-accountability.org.
