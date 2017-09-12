@@ -53,7 +53,7 @@
             "package": {
               "name": "misfist/pai",
                 "version": "0.0.1",
-                "type": "wordpress-plugin",
+                "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/misfist/pai/archive/master.zip"
