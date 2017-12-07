@@ -17,16 +17,16 @@
         {
             "type": "package",
             "package": {
-              "name": "misfist/littlesis",
-                "version": "v0.1.11",
+              "name": "public-accountability/littlesis",
+                "version": "0.1.14",
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/misfist/littlesis/archive/master.zip"
+                    "url": "https://github.com/public-accountability/littlesis/archive/master.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:misfist/littlesis.git",
+                    "url": "https://github.com/public-accountability/littlesis.git",
                     "reference": "master"
                 }
             }
@@ -34,16 +34,16 @@
         {
             "type": "package",
             "package": {
-              "name": "misfist/littlesis-core-functionality",
+              "name": "public-accountability/littlesis-core-functionality",
                 "version": "0.1.4",
                 "type": "wordpress-plugin",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/misfist/littlesis-core-functionality/archive/master.zip"
+                    "url": "https://github.com/public-accountability/littlesis-core-functionality/archive/master.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/misfist/littlesis-core-functionality.git",
+                    "url": "https://github.com/public-accountability/littlesis-core-functionality.git",
                     "reference": "master"
                 }
             }
@@ -51,16 +51,16 @@
         {
             "type": "package",
             "package": {
-              "name": "misfist/pai",
+              "name": "public-accountability/pai",
                 "version": "0.1.0",
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/misfist/pai/archive/master.zip"
+                    "url": "https://github.com/public-accountability/pai/archive/master.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/misfist/pai.git",
+                    "url": "https://github.com/public-accountability/pai.git",
                     "reference": "master"
                 }
             }
@@ -68,16 +68,16 @@
         {
             "type": "package",
             "package": {
-              "name": "misfist/pai-core-functionality",
+              "name": "public-accountability/pai-core-functionality",
                 "version": "0.1.0",
                 "type": "wordpress-plugin",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/misfist/pai-core-functionality/archive/master.zip"
+                    "url": "https://github.com/public-accountability/pai-core-functionality/archive/master.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/misfist/pai-core-functionality.git",
+                    "url": "https://github.com/public-accountability/pai-core-functionality.git",
                     "reference": "master"
                 }
             }
@@ -111,15 +111,16 @@
       "wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.1.1.1",
       "wpackagist-plugin/jetpack": "^5.3",
       "wpackagist-plugin/mailchimp-for-wp": "^4.1.8",
+      "wpackagist-plugin/nginx-helper": "^1.9.10",
       "wpackagist-plugin/post-type-archive-links": "^1.3.1",
       "wpackagist-plugin/series": "^2.0.0",
       "wpackagist-plugin/shortcode-ui": "^0.7.0",
       "wpackagist-plugin/widget-css-classes": "^1.4.0",
-      "misfist/pai-core-functionality": "^0.1.0",
+      "public-accountability/pai-core-functionality": "^0.1.0",
       "wpackagist-theme/understrap": "^0.5.6",
-      "misfist/pai": "^0.1.0",
-      "misfist/littlesis-core-functionality": "^0.1.4",
-      "misfist/littlesis": "^0.1.11"
+      "public-accountability/pai": "^0.1.0",
+      "public-accountability/littlesis-core-functionality": "^0.1.4",
+      "public-accountability/littlesis": "^0.1.14"
     },
     "require-dev": {
       "wpackagist-plugin/developer": "^1.2.5",
