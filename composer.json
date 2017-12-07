@@ -22,11 +22,11 @@
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/public-accountability/littlesis/archive/master.zip"
+                    "url": "https://github.com/public-accountability/littlesis-news-theme/archive/master.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/public-accountability/littlesis.git",
+                    "url": "https://github.com/public-accountability/littlesis-news-theme.git",
                     "reference": "master"
                 }
             }
