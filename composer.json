@@ -1,5 +1,5 @@
 {
-    "name": "misfist/pai-packages",
+    "name": "public-accountability/pai-packages",
     "description": "WordPress packages for public-accountability.org",
     "type": "project",
     "license": "GPLv3",
@@ -22,11 +22,11 @@
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/misfist/littlesis/archive/master.zip"
+                    "url": "https://github.com/public-accountability/littlesis-news-theme/archive/master.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:misfist/littlesis.git",
+                    "url": "https://github.com/public-accountability/littlesis-news-theme.git",
                     "reference": "master"
                 }
             }
@@ -39,11 +39,11 @@
                 "type": "wordpress-plugin",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/misfist/littlesis-core-functionality/archive/master.zip"
+                    "url": "https://github.com/public-accountability/littlesis-core-functionality/archive/master.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/misfist/littlesis-core-functionality.git",
+                    "url": "https://github.com/public-accountability/littlesis-core-functionality.git",
                     "reference": "master"
                 }
             }
@@ -56,11 +56,11 @@
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/misfist/pai/archive/master.zip"
+                    "url": "https://github.com/public-accountability/pai/archive/master.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/misfist/pai.git",
+                    "url": "https://github.com/public-accountability/pai.git",
                     "reference": "master"
                 }
             }
@@ -73,37 +73,34 @@
                 "type": "wordpress-plugin",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/misfist/pai-core-functionality/archive/master.zip"
+                    "url": "https://github.com/public-accountability/pai-core-functionality/archive/master.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/misfist/pai-core-functionality.git",
+                    "url": "https://github.com/public-accountability/pai-core-functionality.git",
                     "reference": "master"
                 }
             }
         },
         {
-            "type": "package",
-            "package": {
-                "name": "misfist/advanced-custom-fields-pro",
-                "version": "5.6.1",
-                "type": "wordpress-plugin",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/misfist/advanced-custom-fields/archive/master.zip"
-                },
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/misfist/advanced-custom-fields.git",
-                    "reference": "master"
-                }
+          "type": "package",
+          "package": {
+            "name": "advanced-custom-fields/advanced-custom-fields-pro",
+            "version": "5.6.9",
+            "type": "wordpress-plugin",
+            "dist": {
+              "type": "zip",
+              "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+            },
+            "require": {
+              "philippbaschke/acf-pro-installer": "^1.0",
+              "composer/installers": "^1.0"
             }
+          }
         }
-
-
     ],
     "require": {
-      "misfist/advanced-custom-fields-pro": "^5.6.1",
+      "advanced-custom-fields/advanced-custom-fields-pro": "^5.6.9",
       "wpackagist-plugin/caldera-forms": "^1.5.0",
       "wpackagist-plugin/co-authors-plus": "^3.2.1",
       "wpackagist-plugin/codepress-admin-columns": "^3.0.3",
