@@ -17,7 +17,7 @@ Run `composer update` (or `composer update --no-dev`)  within the package direct
 
 Important: When installing or updating on a production environment, use the `--no-dev` flag so that packages used for development are not included.
 
-Project structure
+== Project structure ==
 
 ```
 webroot
