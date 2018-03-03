@@ -18,7 +18,7 @@
             "type": "package",
             "package": {
               "name": "misfist/littlesis",
-                "version": "v0.1.11",
+                "version": "0.1.16",
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
@@ -116,7 +116,7 @@
       "wpackagist-theme/understrap": "^0.5.6",
       "misfist/pai": "^0.1.0",
       "misfist/littlesis-core-functionality": "^0.1.4",
-      "misfist/littlesis": "^0.1.11"
+      "misfist/littlesis": "^0.1.16"
     },
     "require-dev": {
       "wpackagist-plugin/developer": "^1.2.5",
