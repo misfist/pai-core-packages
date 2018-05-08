@@ -1,7 +1,7 @@
 === PAI Project ===
 Contributors: misfist
 Requires at least: 4.7
-Tested up to: 4.8.1
+Tested up to: 4.9.5
 License: GPLv3
 
 WordPress packages for public-accountability network of sites
@@ -26,4 +26,5 @@ webroot
 ```
 
 == Changelog ==
+0.0.2 - Updated PAI theme to version 0.1.1
 0.0.1 - Initial
