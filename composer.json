@@ -52,7 +52,7 @@
             "type": "package",
             "package": {
               "name": "misfist/pai",
-                "version": "0.1.1",
+                "version": "0.1.2",
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
@@ -69,7 +69,7 @@
             "type": "package",
             "package": {
               "name": "misfist/pai-core-functionality",
-                "version": "0.1.0",
+                "version": "0.1.1",
                 "type": "wordpress-plugin",
                 "dist": {
                     "type": "zip",
@@ -112,9 +112,9 @@
       "wpackagist-plugin/series": "^2.0.0",
       "wpackagist-plugin/shortcode-ui": "^0.7.0",
       "wpackagist-plugin/widget-css-classes": "^1.4.0",
-      "misfist/pai-core-functionality": "^0.1.0",
+      "misfist/pai-core-functionality": "^0.1.1",
       "wpackagist-theme/understrap": "^0.5.6",
-      "misfist/pai": "^0.1.1",
+      "misfist/pai": "^0.1.2",
       "misfist/littlesis-core-functionality": "^0.1.4",
       "public-accountability/littlesis": "^0.1.16"
     },
