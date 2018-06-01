@@ -26,5 +26,6 @@ webroot
 ```
 
 == Changelog ==
+0.0.3 - Updated PAI core plugin to 0.1.5
 0.0.2 - Updated PAI theme to version 0.1.1
 0.0.1 - Initial
