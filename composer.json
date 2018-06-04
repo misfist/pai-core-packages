@@ -52,7 +52,7 @@
             "type": "package",
             "package": {
               "name": "misfist/pai",
-                "version": "0.1.6",
+                "version": "master",
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
@@ -115,7 +115,7 @@
       "wpackagist-theme/understrap": "^0.5.6",
       "misfist/pai-core-functionality": "^0.1.6",
       "misfist/littlesis-core-functionality": "^0.1.4",
-      "misfist/pai": "^0.1.6",
+      "misfist/pai": "master-dev",
       "public-accountability/littlesis": "^0.1.16"
     },
     "require-dev": {
