@@ -52,7 +52,7 @@
             "type": "package",
             "package": {
               "name": "misfist/pai",
-                "version": "master",
+                "version": "0.1.7",
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
