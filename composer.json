@@ -112,6 +112,7 @@
       "wpackagist-plugin/series": "^2.0.0",
       "wpackagist-plugin/shortcode-ui": "^0.7.0",
       "wpackagist-plugin/widget-css-classes": "^1.4.0",
+      "wpackagist-plugin/nginx-helper": "^2.0.0",
       "wpackagist-plugin/redirection": "^3.6.3",
       "wpackagist-theme/understrap": "^0.5.6",
       "misfist/pai-core-functionality": "^0.1.7",
