@@ -18,7 +18,7 @@
             "type": "package",
             "package": {
               "name": "public-accountability/littlesis",
-                "version": "0.1.16",
+                "version": "0.2.0",
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
@@ -118,7 +118,6 @@
       "misfist/pai-core-functionality": "^0.1.7",
       "misfist/littlesis-core-functionality": "^0.1.4",
       "misfist/pai": "^0.2.2",
-      "public-accountability/littlesis": "^0.1.16"
     },
     "require-dev": {
       "wpackagist-plugin/developer": "^1.2.5",
